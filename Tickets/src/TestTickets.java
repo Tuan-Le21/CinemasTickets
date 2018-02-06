@@ -3,12 +3,12 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestTickets {
-Ticket ticket = new Ticket(8,6,6,4);
+Booking booking = new Booking();
 	@Test
 	
 	public void checkStandardTicketPrices() {
 		int expectedPrice = 8;
-		int standardT = ticket.getStandard();
+		int standardT = booking.getTix(x)
 		assertEquals(expectedPrice, standardT);
 		
 	}
